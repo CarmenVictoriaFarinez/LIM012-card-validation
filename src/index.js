@@ -7,4 +7,4 @@ import validator from './validator.js';
 
    }
 btn.addEventListener ('click', validar);
-console.log(validator);
+//console.log(validator);

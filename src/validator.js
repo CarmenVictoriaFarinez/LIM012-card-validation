@@ -1,15 +1,21 @@
 const validator = {
   isValid(numero_tarjeta){
 //Prueba para numero_tarjeta =123456//
-   let cadena = numero_tarjeta.toString();
-   let longitud = cadena.length;
-   let cifraPares = 0;
-   let cifra_cad=0;
-   let suma=0;
- for (i=0; i < longitud; i++){
-   if (i % 2 !== 0) {
-   cifraPares = parseInt(cadena.charAt(i))*2;
-   //console.log (cifraPares); 4,8,12
+let cadena = numero_tarjeta.toString();
+let invArray =[];
+let cifraPares = 0;
+let cifra_cad=0;
+let suma=0;
+for ( let i = cadena.length - 1; i >= 0; i--) {
+    invArray = invArray + cadena[i]; 
+    //console.log (invArray); 
+}
+let longArray = invArray.toString();
+let longitud = longArray.length; 
+for (let i=0; i < longitud; i++){
+  if (i % 2 !== 0) {
+  cifraPares = parseInt(longArray.charAt(i))*2;
+  //console.log (cifraPares); 
    if (cifraPares > 9){ 
      cifra_cad = cifraPares.toString();
      cifraPares = parseInt(cifra_cad.charAt(0)) + 
@@ -20,7 +26,7 @@ parseInt(cifra_cad.charAt(1));
    //console.log (suma); 4, 12, 15
    }
  }
- for ( i=1; i < longitud; i+=2){
+ for ( let i=1; i < longitud; i+=2){
    suma += parseInt(cadena.charAt(i));
    //console.log (suma);
  }
