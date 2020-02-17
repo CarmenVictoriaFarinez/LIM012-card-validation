@@ -1,5 +1,5 @@
 const validator = {
-  isValid(numero_tarjeta){
+isValid(numero_tarjeta){
 //Prueba para numero_tarjeta =123456//
 let cadena = numero_tarjeta.toString();
 let invArray =[];
@@ -38,7 +38,19 @@ parseInt(cifra_cad.charAt(1));
   alert("El número de tarjeta no es válido");
   console.log (suma);
  }
+}, 
+
+  maskify (numero_tarjeta){
+    
+  let extra = numero_tarjeta.slice(-4);
+  let nuevaCadena = ''; 
+  for (let i=0; i< numero_tarjeta.length-4;  i++){ 
+  nuevaCadena += '*'; 
+  } 
+  let fin = nuevaCadena + extra;
+  alert(fin);
 }
+
 };
 
 export default validator;
