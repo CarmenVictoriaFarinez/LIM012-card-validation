@@ -47,10 +47,8 @@ parseInt(cifra_cad.charAt(1));
   for (let i=0; i< numero_tarjeta.length-4;  i++){ 
   nuevaCadena += '*'; 
   } 
-  let fin = nuevaCadena + extra;
-  alert(fin);
+  alert(nuevaCadena + extra);
 }
-
 };
 
 export default validator;
