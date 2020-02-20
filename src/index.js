@@ -1,23 +1,28 @@
 import validator from './validator.js';
 //Extrae mi input //
-  let btn = document.getElementById('btn');
+const btn = document.getElementById('btn');
 
-  let validar = () => {
-  let tarjeta = document.getElementById('card').value;
-  let numero_tarjeta = validator.isValid (tarjeta);
+const validar = () => {
+const tarjeta = document.getElementById('card').value;
 
-   }
+
+if (validator.isValid (tarjeta) == true){
+  document.getElementById('ver').innerHTML = "Tu Tarjeta es Valida";
+}else {
+  document.getElementById('ver').innerHTML = "Tu Tarjeta es invalida";
+
+//document.getElementById ('ver').style.display(none);
+//document.getElementById ('ver').style.display('');
+}
+}
   btn.addEventListener ('click', validar);
 
-   let ocultar = () => {
-   let tarjeta = document.getElementById('card').value;
-   let numero_tarjeta = validator.maskify (tarjeta);
-   }
+   const ocultar = () => {
+   const tarjeta = document.getElementById('card').value;
+   document.getElementById('ver1').innerHTML = validator.maskify (tarjeta);
+    
+   };
    btn.addEventListener ('click', ocultar);
 
-
-
-
-
-console.log(validator);
+//console.log(validator);
 
