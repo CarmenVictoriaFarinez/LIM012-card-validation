@@ -17,9 +17,9 @@ Se trata de una aplicación web, que te permite validar la tarjeta de regalo obs
   1. Explicar quiénes son los usuarios y los objetivos en relación con el
     producto.
 
-    * Usuarios: Son los clientes de la cadena de Tiendas Glam Woman Store, quienes reciben una gift card por la cantidad de 50 soles, por cada compra mayor a 100 soles.
+  * Usuarios: Son los clientes de la cadena de Tiendas Glam Woman Store, quienes reciben una gift card por la cantidad de 50 soles, por cada compra mayor a 100 soles.
 
-   * Objetivo: Que los usuarios beneficiados con la tarjeta, puedan verificar la validez de su gift card, lo cual contribuirá con la satisfacción y fidelización en general del cliente.
+  * Objetivo: Que los usuarios beneficiados con la tarjeta, puedan verificar la validez de su gift card, lo cual contribuirá con la satisfacción y fidelización en general del cliente.
 
   2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
     usuarios.
@@ -28,7 +28,7 @@ Se trata de una aplicación web, que te permite validar la tarjeta de regalo obs
 
   3. Primer prototipo en papel.
 
-  ![PRIMER_PROTOTIPO] (proto_papel.jpg)
+  ![protopapel](proto_papel.jpg)
 
   4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
 
