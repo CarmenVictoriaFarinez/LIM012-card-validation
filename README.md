@@ -28,7 +28,7 @@ Se trata de una aplicación web, que te permite validar la tarjeta de regalo obs
 
   3. Primer prototipo en papel.
 
-  ![protopapel](proto_papel.jpg)
+  ![proto_papel](proto_papel.JPG)
 
   4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
 

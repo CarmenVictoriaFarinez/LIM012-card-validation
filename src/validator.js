@@ -67,5 +67,5 @@ parseInt(cifra_cad.charAt(1));
  return nuevaCadena + extra;
 }
 };
-
+// It's always a good time, for a great style
 export default validator;

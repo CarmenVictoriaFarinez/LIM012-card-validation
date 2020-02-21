@@ -12,37 +12,32 @@ header{
 	width:1000px;
 	height:120px;
 	border-radius: 15px;
-	border: 5px solid blue;
+	border: 3px solid blue;
 	
 	}
+main {
+	background-image: url(img/tendencia.jpg);
+	background-size: cover;	
+	width:1400px;
+	height:500px;
+}
+
 	
 body {
 		background-image: url(img/header.png);
-		background-size: cover;
+		background-size: auto;
 	}
-h1{
-	font-family:Cottonwood;
-	color: green;
-	position: relative;
-    top: opx;
-    left: 400px;
+
+.general {
+	margin-top: 0px;
+	margin-left: 400px;	
 }
-img{
+	  
+.logo{
    height:120px;
+   border: 1px solid blue;
    border-radius: 15px;
 }
-
-#logo{
-	position:absolute;
-	top:30px;
-	left:30px;
-	width:200px;
-	height:60px;
-	font-family:"helvetica", cursive;
-	font-size:50px;
-	text-align:center;
-	line-height:60px;
-	}
 
 .redes{
 	position:absolute;
@@ -56,19 +51,22 @@ img{
 #icono1{
 	top:42px;
 	right:120px;
-	background:blue;
+	background-image: url(img/face.png);
+	background-size: cover;
 	}
 
 #icono2{
 	top:42px;
 	right:71px;
-	background:green;
+	background-image: url(img/whatsapp.png);
+	background-size: cover;
 	}
 
 #icono3{
 	top:42px;
 	right:19px;
-	background:red;
+	background-image: url(img/instagram.png);
+	background-size: cover;
 	}
 
 nav{
@@ -80,54 +78,31 @@ nav{
 	
 
 section{
-	   margin:auto; 
+	   margin: 20px auto; 
 	   position:absolute;
-	   top:300px;
-	   left:500px;
+	   top:200px;
+	   left:830px;
        width:300px;
 	   height:160px;
 	   text-align:center;
 	   border: 1px solid black;
 	   border-radius: 15px;
+	   background-image: url(img/header.png);
+	background-size: cover;
 	   
-	}
-       
-	 ul {
-		position:relative;
-    	margin:130px;
-		width:200px;
-		outline: 1px solid green;
-		list-style: none;
-		line-height: 26px;
-		}
-	
-		
-	li {
-		/*outline: 1px solid green;*/
-		/*background-color: rgb(120, 179, 120);*/
-
-	}
-	a {
-		/*outline: 1px solid green;*/
-		display: block;
-		text-decoration: none;
-		color:black;
-		padding-left: 10px;
-		border-radius: 15px;
-}
-        
+	}     
 
 	
 aside#central input[type="number"]{
-				background:white;
-				margin: 60px;
-				width:200px;
-				height:80px;
-				background-repeat:no-repeat;
-			 	background-position:right;
-			 	background-size:contain;
-				 }
- .card {
+	    background:white;
+		margin: 60px;
+		width:200px;
+		height:80px;
+		background-repeat:no-repeat;
+		background-position:right;
+		background-size:contain;
+		 }
+.card {
 	position:relative;
 	margin:10px auto;
 	width:150px;
@@ -137,16 +112,16 @@ aside#central input[type="number"]{
 }
 
 footer{
-    	position:relative;
-    	margin:200px auto;
-    	width:1000px;
-    	height:70px;
-    	background:blue;
-    	text-align:center;
-    	line-height:70px;
-		color:white;
-		border-radius: 15px;
-		border-radius: 1px solid black;
+   
+    margin:450px auto;
+    width:1000px;
+    height:70px;
+    background:blue;
+    text-align:center;
+    line-height:70px;
+	color:white;
+	border-radius: 15px;
+	border-radius: 1px solid black;
 		
 		}
 
@@ -158,4 +133,8 @@ footer{
 	padding: 10px 10px;
 	text-align: center;
 	text-decoration: none;
+}
+
+ .boton:hover{
+	background-color:green;
 }
