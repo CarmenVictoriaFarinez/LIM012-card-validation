@@ -30,6 +30,10 @@ Se trata de una aplicación web, que te permite validar la tarjeta de regalo obs
 
   ![proto_papel](proto_papel.jpg)
 
+  Primer prototipo en Balsamiq.
+
+   ![proto_papel](proto_balsamiq.jpg)
+
   4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
 
   5. Imagen del prototipo final.
