@@ -1,10 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Fondamento&display=swap');
+
 *{
 	margin:0;
 	padding:0;
 	list-style:none;
-	font-family:Cottonwood;
 	
 	}
+
+.anadir {
+		display:block;
+	  }
+	
+.borrar {
+		display: none;
+	  }
 
 header{
 	position:relative;
@@ -12,9 +21,43 @@ header{
 	width:1000px;
 	height:120px;
 	border-radius: 15px;
-	border: 3px solid blue;
+	/* border: 3px solid blue; */
+	background: rgba(255, 255, 255, 0.5);
 	
 	}
+
+p {
+	color: blue;
+	font-family: 'Fondamento', sans-serif ;	
+	position: relative;
+	top: 50px;
+}
+
+.header-text{
+margin-top: 10px;
+margin-left: 350px;
+font-size: xx-large;
+color:blue;
+font-family: 'Fondamento', sans-serif ;
+}
+
+.sec-text{
+	position:relative;
+	margin:0px auto;
+    font-size: medium;
+    color:blue;
+    font-family: 'Fondamento', sans-serif ;
+}
+
+.card {
+	position:relative;
+	margin:50px auto;
+	width:150px;
+	height:40px;
+	border-radius: 15px;
+
+}
+
 main {
 	background-image: url(img/tendencia.jpg);
 	background-size: cover;	
@@ -32,11 +75,14 @@ body {
 	margin-top: 0px;
 	margin-left: 400px;	
 }
+
+
 	  
 .logo{
+   position: relative;
+   top: -35px;
    height:120px;
-   border: 1px solid blue;
-   border-radius: 15px;
+   
 }
 
 .redes{
@@ -77,39 +123,36 @@ nav{
 	}
 	
 
-section{
+.intro1{
 	   margin: 20px auto; 
 	   position:absolute;
-	   top:200px;
+	   top:250px;
 	   left:830px;
        width:300px;
-	   height:160px;
+	   height:260px;
 	   text-align:center;
 	   border: 1px solid black;
 	   border-radius: 15px;
 	   background-image: url(img/header.png);
 	background-size: cover;
 	   
-	}     
+	} 
 
-	
-aside#central input[type="number"]{
-	    background:white;
-		margin: 60px;
-		width:200px;
-		height:80px;
-		background-repeat:no-repeat;
-		background-position:right;
-		background-size:contain;
-		 }
-.card {
+.intro {
+	margin: 20px auto; 
 	position:relative;
-	margin:10px auto;
-	width:150px;
-	height:40px;
+	top:45px;
+	right:300px;
+	width:480px;
+	height:260px;
+	text-align:center;
+	border: 1px solid black;
 	border-radius: 15px;
+	background-image: url(img/header.png);
+	background-size: cover;
+	}
+	
 
-}
 
 footer{
    
@@ -126,15 +169,17 @@ footer{
 		}
 
 .boton{
-	margin: 0px;
-	background-color:blue; 
+	margin: 0px auto;
+	background-color: rgb(118, 189, 118); 
 	border-radius: 15px;
 	color: white;
-	padding: 10px 10px;
+	padding: 15px 15px;
 	text-align: center;
 	text-decoration: none;
+	font-family: 'Fondamento', sans-serif ;
 }
 
  .boton:hover{
-	background-color:green;
+	background-color:blue;
 }
+
