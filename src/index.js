@@ -24,7 +24,7 @@ btn.addEventListener ('click', ocultar);
 
 const ganar = document.getElementById('ganar');
 const gift = () => {
-const inst = document.getElementById('ganar').value;
+document.getElementById('ganar').value;
 
 document.getElementById('ver2').classList.remove ('borrar');
 };

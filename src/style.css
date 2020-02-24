@@ -134,7 +134,7 @@ nav{
 	   
 	   border: 1px solid black;
 	   border-radius: 15px;
-	   background-image: url(img/header.png);
+	   background: rgba(255, 255, 255, 0.8);
 	background-size: cover;
 	   
 	} 
@@ -149,8 +149,8 @@ nav{
 	text-align:center;
 	border: 1px solid black;
 	border-radius: 15px;
-	background-image: url(img/header.png);
-	background-size: cover;
+	background:rgba(255, 255, 255, 0.8);
+	
 	
 	}
 	
