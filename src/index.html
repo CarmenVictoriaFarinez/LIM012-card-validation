@@ -17,16 +17,16 @@
     <main>
     <div id="general" class="general">
       <button class="boton">Start</button>
-      <button class="boton" id="ganar" name ="gift"> How to win a gift card? </button>
-      <button class="boton" >Validate your gift card</button>
+      <button class="boton" id="pasos" name ="gift"> How to win a gift card? </button>
+      <button class="boton" id= "principal" name = "pri" >Validate your gift card</button> 
     </div>
-    <div id="ver2" class="borrar">
+    <div id="pasosver2" class="borrar">
     <div id="intro" class="intro">
-       <p>Instrucciones</p>
+       <h2>Pasos a Seguir..</h2>
        <p> Paso 1. - Realizar una compra por un monto mayor a 100 soles.</p>
-
+       <img src="img/paso1.jpg" class="paso1"/>
        <p> Paso 2. - Exige tu comprobante de pago, el cual trae impreso el codigo de tu tarjetas de regalo.</p>
-
+       <img src="img/paso2.jpg" class="paso1"/>
        <p> Paso 3. - Ingresa a nuestra pagina y utiliza la opcion "Validate your gift card".</p>  
 
        <p> Paso 4. - Coloca el codigo de la tarjeta impreso en el comprobante de pago, procede a validar la tarjeta, presionando el boton "Continue". </p>
@@ -35,14 +35,17 @@
     </div> 
   </div>
   <section >
-      <div id="intro1" class="intro1">
+    <div id="pasosver3" class="borrar">
+      <div class="intro1">
           <p>Please validate your gift card</p>
+          <img src="img/tarjeta-regalo.jpg" class="logo1"/>
           <input type ="text" name = "validar" class="card" id="card" placeholder="  Enter your card number">
           <div><button id="btn" class="boton">Continue</button></div>
           <div id ="ver"> </div>
           <div id ="ver1"> </div>
         </div>
-      
+      </div>
+      <span id="alerta"></span>
       </section>
       
     </main>
