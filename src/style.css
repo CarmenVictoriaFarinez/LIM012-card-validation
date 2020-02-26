@@ -10,6 +10,10 @@
 .borrar {
 		display: none;
 	  }
+	  
+.anadir {
+		display: block;
+	  }
 
 header{
 	position:relative;
@@ -97,6 +101,8 @@ body {
 	
  }
 
+
+
 .redes{
 	position:absolute;
 	width:42px;
@@ -149,6 +155,23 @@ nav{
 	   background-size: cover;
 	   
 	} 
+	.ver {
+		position:absolute;
+		top:68%;
+		left:43%;
+		font-size: large;
+        color: green;
+		 
+	 }
+
+	 .ver1 {
+		position:absolute;
+		top:75%;
+		left:40%;
+		font-size:x-large;
+        color:blue;
+		
+	 }
 
 .intro {
 	margin: 20px auto; 

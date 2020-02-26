@@ -21,36 +21,35 @@ for (let i=0; i < longitud; i++){
   //console.log (cifraPares); 
    if (cifraPares > 9){ 
      cifra_cad = cifraPares.toString();
-     cifraPares = parseInt(cifra_cad.charAt(0)) + 
-parseInt(cifra_cad.charAt(1));
-    //console.log (cifraPares); 1+2 =3
-   }
-   suma=suma + cifraPares;
+     cifraPares = parseInt(cifra_cad.charAt(0)) + parseInt(cifra_cad.charAt(1));
+     //console.log (cifraPares); 1+2 =3
+    }
+     suma=suma + cifraPares;
    //console.log (suma); 4, 12, 15
-   }
- }
- for ( let i=0; i < longitud; i+=2){
-  if ( i % 2 == 0) {
+}
 
+ //for ( let i=0; i < longitud; i+=2){
+  else if ( i % 2 == 0){
     cifraImpares = parseInt(longArray.charAt(i));
     //console.log (cifraImpares);
-  suma += parseInt(cifraImpares);
-  //console.log (suma);
+     suma += parseInt(cifraImpares);
+    //console.log (suma);
+  }
 }
-}
-	
- if ((suma % 10) == 0){ 
-    return true;
-  //alert('Número de tarjeta correcto');
-  //console.log (suma);
- } else {
-    return false;
-  //alert('El número de tarjeta no es válido');
-  //console.log (suma);
- }
+
+    if ((suma % 10) == 0){ 
+     return true;
+      //alert('Número de tarjeta correcto');
+      //console.log (suma);
+    } else {
+      return false;
+        //alert('El número de tarjeta no es válido');
+        //console.log (suma);
+      }
+  
 }, 
 
-  maskify: (numero_tarjeta) => {
+  maskify : (numero_tarjeta) => {
     
     
     let extra = numero_tarjeta.slice(-4);
