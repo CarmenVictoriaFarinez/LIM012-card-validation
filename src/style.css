@@ -6,10 +6,6 @@
 	list-style:none;
 	
 	}
-
-.anadir {
-		display:block;
-	  }
 	
 .borrar {
 		display: none;
@@ -18,10 +14,9 @@
 header{
 	position:relative;
 	margin:20px auto;
-	width:100%;
+	widows: 1000px;
 	height:120px;
 	border-radius: 15px;
-	/* border: 3px solid blue; */
 	background: rgba(255, 255, 255, 0.5);
 	
 	}
@@ -41,7 +36,7 @@ h2 {
 	top: 30px;	
 }
 
-.header-text{
+.header-text{	
 margin-top: 10px;
 margin-left: 350px;
 font-size: xx-large;
@@ -76,7 +71,7 @@ main {
 body {
 		background-image: url(img/header.png);
 		background-size: auto;
-		width:100%;
+		
 	}
 
 .general {
@@ -143,9 +138,9 @@ nav{
 .intro1{
 	   margin: 20px auto; 
 	   position:absolute;
-	   top:250px;
-	   left:450px;
-       width:300px;
+	   top:38%;
+	   left:38%;
+       width:20%;
 	   height:400px;
 	   text-align:center;
 	   border: 1px solid black;
@@ -160,7 +155,7 @@ nav{
 	position:relative;
 	top:45px;
 	width:80%;
-	height:800px;
+	height:1500px;
 	text-align:center;
 	border: 1px solid black;
 	border-radius: 15px;
@@ -175,10 +170,19 @@ nav{
 	border-radius:100%;
 	text-align:center;
 }
+
+.paso2 {
+	position: relative;
+	margin-top: 50px;
+	width:220px;
+	height:200px;
+	border-radius:100%;
+	text-align:center;
+}
 	
 footer{
-   
-    margin:450px auto;
+   position: relative;
+    margin-top: 1100px;
     width:100%;
     height:70px;
     background:blue;
@@ -205,3 +209,23 @@ footer{
 	background-color:blue;
 }
 
+.alerta {
+	
+	position:relative;
+	top:330px;
+	left:500px;
+	width:150px;
+	height:40px;
+	padding: 15px 15px;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Fondamento', sans-serif ;
+	color:red;
+	background-color: rgba(255, 255, 255, 0.1); 
+	
+}
+
+.general {
+	display: flex;
+	flex-wrap: nowrap;
+}

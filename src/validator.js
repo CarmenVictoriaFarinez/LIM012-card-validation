@@ -8,9 +8,6 @@ let cifraImpares = 0;
 let cifra_cad=0;
 let suma=0;
 
-//if (cadena == '/^[0-9]$/'){
-//alert("Por favor introducir solo numeros");
-
 for ( let i = cadena.length - 1; i >= 0; i--) {
     invArray = invArray + cadena[i]; 
     //console.log (invArray); 
@@ -67,5 +64,4 @@ parseInt(cifra_cad.charAt(1));
  return nuevaCadena + extra;
 }
 };
-// It's always a good time, for a great style
 export default validator;
