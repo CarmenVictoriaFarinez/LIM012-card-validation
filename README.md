@@ -2,7 +2,7 @@
 
 Se trata de una aplicación web, que te permite validar la tarjeta de regalo obsequiada en la red de tiendas de la cadena Glam Woman Store. Esta útil app le permite al usuario verificar la validez de su tarjeta de regalo.
 
-![Pagina](readme1.JPG)
+![Pagina](readme1.jpg)
 
 # Instrucciones y Funcionalidad.
 
@@ -13,22 +13,21 @@ Sección 1
 
 Al presionar este boton, se despligan una serie de instrucciones, la cuales constan de 5 pasos, descritos de maneja sencilla y ambientadas con un icono por cada paso, se ven de la siguiente forma:
 
-![Pagina](readme2.JPG)
-![Pagina](readme3.JPG)
-![Pagina](readme4.JPG)
+![Pagina](readme2.jpg)
+![Pagina](readme3.jpg)
+![Pagina](readme4.jpg)
 
-Sección 2
 # Validate your gift card o Valida tu tarjeta de regalo.
 
 En esta sección el cliente podrá escribir los números de la tarjeta de regalo que desea validar y le mostrara si tiene validez o no. En el caso de que el usuario presione el boton de "Continue" sin digitar número le aparecera un texto de alerta indicando que debe digitar un número de su tarjeta.
 
-![Pagina](readme5.JPG)
+![Pagina](readme5.jpg)
 
-![Pagina](readme6.JPG)
+![Pagina](readme6.jpg)
 
 La página tambien cuenta con un footer o encabezado en el cual, figuran los íconos de las redes sociales : Instagram, whatsapp y facebook, la cuales redireccionan a las diferentes redes sociales.
 
-![Pagina](readme7.JPG)
+![Pagina](readme7.jpg)
 
 ## * Investigación UX:
   1. Explicar quiénes son los usuarios y los objetivos en relación con el
