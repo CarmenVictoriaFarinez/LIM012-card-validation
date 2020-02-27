@@ -16,14 +16,13 @@ document.getElementById('alerta').classList.add ('alerta');
     document.getElementById('pasosver3').classList.add('borrar');
     document.getElementById('resul').classList.add('anadir');
     document.getElementById('ver').innerHTML = "Your card is valid";
-    document.location.reload();
     
   }
     else {
       document.getElementById('pasosver3').classList.add('borrar');
       document.getElementById('resul').classList.add('anadir');
       document.getElementById('ver').innerHTML = "Your card is invalid";
-      document.location.reload();
+     
        
     }
  
@@ -62,6 +61,7 @@ const init = () => {
   document.getElementById ('resul').classList.remove('anadir');
   document.getElementById ('pasosver2').classList.add('borrar');
   document.getElementById ('pasosver3').classList.add('borrar');
+  document.location.reload();
 };
 inicio.addEventListener ('click', init);
 
