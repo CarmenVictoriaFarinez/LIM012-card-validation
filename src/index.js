@@ -7,7 +7,7 @@ const validar = () => {
 const tarjeta = document.getElementById('card').value;
 
 if (tarjeta == ''){
-document.getElementById('alerta').innerHTML = "Please write a card number";
+document.getElementById('alerta').innerHTML = "Por favor introduce un numero";
 document.getElementById('alerta').classList.add ('alerta');
  
 }else {
@@ -15,13 +15,13 @@ document.getElementById('alerta').classList.add ('alerta');
   if  (validator.isValid (tarjeta) == true){
     document.getElementById('pasosver3').classList.add('borrar');
     document.getElementById('resul').classList.add('anadir');
-    document.getElementById('ver').innerHTML = "Your card is valid";
+    document.getElementById('ver').innerHTML = "Tu tarjeta es Valida";
     
   }
     else {
       document.getElementById('pasosver3').classList.add('borrar');
       document.getElementById('resul').classList.add('anadir');
-      document.getElementById('ver').innerHTML = "Your card is invalid";
+      document.getElementById('ver').innerHTML = "Tu tarjeta es invalida";
      
        
     }
